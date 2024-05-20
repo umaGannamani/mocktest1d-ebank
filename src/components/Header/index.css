@@ -1,0 +1,29 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #152850;
+  position: fixed;
+  height: 100px;
+  padding: 10px 40px;
+}
+.website-logo {
+  height: 60px;
+  margin-left: 40px;
+  justify-content: flex-start;
+}
+.logout-button {
+  width: 120px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  margin-right: 40px;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  justify-content: flex-end;
+}
